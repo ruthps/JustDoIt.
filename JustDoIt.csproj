@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entity\NewFolder\**" />
+    <EmbeddedResource Remove="Entity\NewFolder\**" />
+    <None Remove="Entity\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TodoService\NewFolder\" />
+  </ItemGroup>
+
+</Project>
